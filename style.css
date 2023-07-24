@@ -1,0 +1,68 @@
+.body{
+    align-items: center;
+}
+.car{
+    border: 2px solid black;
+    height: 500px;
+    width: 300px;
+    margin-left: 40%;
+    overflow: hidden;
+    background-color: aquamarine;
+}
+#img{
+    border: 1px solid black;
+    height: 200px;
+    width: 320px;
+    background-color: white;
+    background-image: url(assert1/BMW-7-Series-140220232052\ grey.jpg);
+    background-image: url("https://imgd.aeplcdn.com/370x208/n/tzdgpra_1422244.jpg?q=75");
+    /* background-image: url(https://imgd.aeplcdn.com/370x208/n/tzdgpra_1422244.jpg?q=75); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -19px;
+}
+.col{
+    margin-top: 9%;
+}
+.colo1{
+    border: 2px solid rgb(176, 22, 22);
+    margin-top: 5%;
+    margin-left: 4%;
+    background-color: red;
+    color: red;
+    border-radius: 50%;
+}
+.colo1:hover{
+    cursor: pointer;
+}
+.colo2{
+    /* border: 2px solid rgb(176, 22, 22); */
+    margin-top: 5%;
+    margin-left: 4%;
+    background-color: grey;
+    color: grey;
+    border-radius: 50%;
+}
+.colo2:hover{
+    cursor: pointer;
+}
+.colo3{
+    /* border: 2px solid rgb(176, 22, 22); */
+    margin-top: 5%;
+    margin-left: 4%;
+    background-color: white;
+    color: white;
+    border-radius: 50%;
+}
+.colo3:hover{
+    cursor: pointer;
+}
+.save{
+    width: 150px;
+    height: 30px;
+    margin-top: 15px;
+}
+.save:hover{
+    cursor: pointer;
+    background-color: aquamarine;
+}
